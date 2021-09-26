@@ -1,0 +1,102 @@
+body{
+    margin: 0px;
+    padding: 50px;
+    padding-top: 0px;
+    background-image: url(moneybg.jpg);
+    background-color: rgb(214, 245, 206);
+    background-blend-mode:lighten;
+}
+
+h1{
+    color: rgb(17, 119, 63);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center; 
+    background:rgb(179,233,170);
+    height: auto;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50px;
+    border: 2px solid rgb(21, 139, 74);
+    padding: 10px;
+}
+.personal_information,.contact_information,.payment_details{
+    color: rgb(17, 119, 63);
+    padding: 20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+    background:rgb(179,233,170);
+    border-radius: 10px;
+    margin-top: 0px;
+}
+option{
+    color: rgb(21, 139, 74);
+}
+.data{
+    margin: 20px;
+}
+
+h3{
+    font-family:monospace;
+    color: rgb(179, 233, 170);
+    height: 2px;
+    padding: 8px 7px 27px 7px;
+    background: rgb(21, 139, 74);
+    margin-top: 10px;
+    margin-bottom: 0;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border: 7px solid rgb(179, 233, 170) ;
+    
+}
+input[type="text"],input[type="number"],input[type="email"],input[type="date"],input[type="radio"],select{
+    border-color: rgb(21, 139, 74);
+    border-radius: 10px;
+    border-width: 1.5px;
+    border-style:solid;
+    margin-top: 1px;
+}
+textarea{
+    border-radius: 10px;
+    border: 1px solid rgb(21, 139, 74);
+    margin:auto;
+    width: auto;
+}
+input[type="email"]
+{
+    margin-left: 0px;
+}
+.cvv{
+    margin-left: 1px;
+    width: 50px;
+    padding: 0px;
+}
+button{
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    font-size: large;
+    margin-top: 50px;
+    color: white ;
+    background-color:rgb(17, 119, 63);
+    border: px solid rgb(3, 87, 24);
+    border-radius: 20px;
+    padding: 10px 35px 10px 30px;
+    
+    cursor: pointer;
+}
+button:hover{
+    border: 1px solid rgb(6, 48, 25);
+    background-color: rgb(17, 119, 40);
+}
+
+::placeholder{
+    color: rgb(189, 199, 198);
+}
+ img{
+     width: 200px;
+     margin-left:auto;
+     margin-bottom:0px;
+ }
+
+input[type="text"]{
+    margin: 0;
+}

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>vigneshwar</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Payment Form</h1>
+    <form action="">
+      <h3>personal information:</h3>
+      <div class="personal_information">
+        <div class="data" id="fn">
+          First name: &nbsp; <input type="text" placeholder="suresh" class="data" name="first_name" /><br />
+          Last name: &nbsp; <input type="text" class="data" placeholder="japa" name="last_name" /><br />
+        </div>
+        <div class="data">
+          Gender: <br />
+          <input type="radio" name="radio" /> <tt>male</tt>  &nbsp;&nbsp;
+          <input type="radio" name="radio" /> <tt>female</tt>  <br />
+        </div>
+        <div class="data">Country: <br />
+        <select name="country" id="">
+          <option value="">
+            <span class="select">---select option---</span>
+          </option>
+          <option value="india">INDIA</option>
+          <option value="usa">USA</option>
+          <option value="austrila">AUSTRILA</option>
+          <option value="russia">RUSSIA</option>
+          <option value="china">CHINA</option>
+          <option value="england">ENGLAND</option>
+          <option value="africa">AFRICA</option>
+        </select>
+        </div>
+      </div>
+      <h3>Contact information:</h3>
+      <div class="contact_information">
+        <div class="data">Phone no:
+        <input type="number" placeholder="9999999999" maxlength="10" name="phone_number" /><br /></div>
+        <div class="data">Email id:
+        <input type="email" placeholder="abc@gmail.com" name="email" /><br /></div>
+        <div class="data">Permanent address: <br />
+        <textarea name="address" placeholder="Plotno:2-55, Gandhinagar, NewDelhi" id=""></textarea><br /></div>
+      </div>
+      <h3>Payment Details:</h3>
+      <div class="payment_details">
+        <br>&nbsp;&nbsp; Available cards: <br>
+        <img src="payment icons.png" alt="icons">
+        <div class="data">Card number:
+        <input type="number" placeholder="1234567890987" name="card_number" /><br /></div>
+        <div class="data">Expire date:
+        <input type="date" name="expire_date" /> &nbsp;&nbsp; CVV:
+        <input type="number" maxlength="3" placeholder="123" size="20" name="cvv" class="cvv" /></div>
+        <br />
+      </div>
+      <input type="checkbox" name="checkbox" />
+      <a href="text.txt" target="_blank">agree terms & conditions</a> <br>
+      <button type="submit" value="submit">submit</button>
+    </form>
+  </body>
+</html>
